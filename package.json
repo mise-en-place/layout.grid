@@ -1,22 +1,22 @@
 {
-  "name": "layout.grid",
+  "name": "mep-layout.grid",
   "version": "1.0.0",
-  "description": "",
-  "main": "_grid.scss",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Base grid layout",
+  "main": "stylesheets/_grid.scss",
+  "eyeglass": {
+    "needs": "^1.0.0",
+    "name": "grid",
+    "exports": "eyeglass-exports.js"
   },
+  "keywords": [
+    "eyeglass-module",
+    "sass",
+    "mise-en-place"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mise-en-place/layout.grid.git"
+    "url": "https://github.com/mise-en-place/layout.grid.git"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mise-en-place/layout.grid/issues"
-  },
-  "homepage": "https://github.com/mise-en-place/layout.grid#readme",
-  "dependencies": {
-    "mise-en-place/conditional-respond-to": "1.0.0"
-  }
+  "author": "Kind",
+  "license": "MIT"
 }
