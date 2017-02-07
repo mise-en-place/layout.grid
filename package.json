@@ -5,7 +5,7 @@
   "main": "stylesheets/_grid.scss",
   "eyeglass": {
     "needs": "^1.0.0",
-    "name": "grid",
+    "name": "layout-grid",
     "exports": "eyeglass-exports.js"
   },
   "keywords": [
