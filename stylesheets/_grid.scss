@@ -2,7 +2,10 @@
 // GRID LAYOUT
 // ==========================================================================
 
-@import '../tools.conditional-respond-to/conditional-respond-to';
+@import "tool-conditional-respond-to";
+@import "tool-rem-calc";
+@import "tool-global-config";
+@import "tool-clearfix";
 
 /*doc
 ---
