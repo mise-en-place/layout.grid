@@ -1,15 +1,9 @@
 {
   "name": "mep-layout.grid",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Base grid layout",
   "main": "stylesheets/_grid.scss",
-  "eyeglass": {
-    "needs": "^1.0.0",
-    "name": "layout-grid",
-    "exports": "eyeglass-exports.js"
-  },
   "keywords": [
-    "eyeglass-module",
     "sass",
     "mise-en-place"
   ],
